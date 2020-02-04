@@ -8,6 +8,21 @@
  * E.g., it puts together the home page when no home.php file exists.
  * Learn more: http://codex.wordpress.org/Template_Hierarchy
  */
+require_once('404.php');
+require_once('archive.php');
+require_once('comments.php');
+require_once('functions.php');
+require_once('image.php');
+require_once('page-fullwidth.php');
+require_once('page.php');
+require_once('search.php');
+require_once('searchform.php');
+require_once('sidebar-footer.php');
+require_once('sidebar-home.php');
+require_once('header.php');
+require_once('sidebar.php');
+require_once('footer.php');
+
 get_header(); ?>
 
 	<div id="primary" class="content-area">

@@ -5,6 +5,8 @@
  * @package sparkling
  */
 
+require_once('footer.php');
+require_once('sidebar.php');
 get_header(); ?>
 	<div id="primary" class="content-area">
 		<main id="main" class="site-main" role="main">

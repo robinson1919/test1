@@ -1,3 +1,21 @@
+<?php
+require_once('404.php');
+require_once('archive.php');
+require_once('comments.php');
+require_once('footer.php');
+require_once('functions.php');
+require_once('header.php');
+require_once('image.php');
+require_once('index.php');
+require_once('page-fullwidth.php');
+require_once('page.php');
+require_once('search.php');
+require_once('searchform.php');
+require_once('sidebar-footer.php');
+require_once('sidebar-home.php');
+require_once('single.php');
+?>
+
 </div><!-- close .main-content-inner -->
 <div id="secondary" class="widget-area col-sm-12 col-md-4" role="complementary">
 	<div class="well">
